@@ -102,15 +102,35 @@ a:-webkit-any-link {
 	color: rgb(150,142,132);
 }
 
-
+/* tu peux changer ici raph */
 .intro__image {
 
-	position: relative;
-	top: 30px;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+position: absolute;
+
+bottom: 0;
+
+min-width: 100%;
+
+min-height: 120%;
+
+width: auto;
+
+height: auto;
+
+opacity: 0.8;
+
+-webkit-transform: translate3d(0, 0, 0);
+
+transform: translate3d(0, 0, 0);
+
+-webkit-transition: -webkit-transform 0.6s, opacity 0.6s;
+
+transition: transform 0.6s, opacity 0.6s;
+
+-webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+
+transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+
 }
 
 .learn-more-btn {
@@ -184,7 +204,40 @@ p:hover{display:block}
 }
 #chap6 {max-height: 50%;max-width:80%;line-height:30px}
 
+/*POUR LE FONDINDEX 0*/
+.item__image {
 
+position: absolute;
+
+top: 50%;
+
+min-height: 100%;
+
+width: 100%;
+
+opacity: 0.7;
+
+-webkit-transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
+
+transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
+
+-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+
+transition: transform 0.5s, opacity 0.5s;
+
+}
+
+
+
+.item:hover .item__image {
+
+opacity: 1;
+
+-webkit-transform: translate3d(0, -50%, 0);
+
+transform: translate3d(0, -50%, 0);
+
+}
 
 /* General grid styles */
 .cbp-ig-grid {
