@@ -73,11 +73,23 @@ header h1 {
 	margin-left: 10PX;
 	display: block;
 }
+
+
+header h2{
+	font-family: 'raleway', sans-serif;
+	text-transform: uppercase;
+text-align: center;
+margin-top:30px
+color: red;
+margin-left:0px;
+padding: 40px 20px 40px 20px;
+}
 .titre {
 	font-family: 'raleway', sans-serif;
-	padding: 30px 25px 10px 25px;
+	padding: 40px 25px 40px 25px;
 	font-weight: 800;
-	margin-left:550px;
+	max-width:100%;
+	font-size:100px;
 	
 	color: #000;
 }
@@ -85,7 +97,7 @@ header h1 {
 .titre_read {
 	font-family: 'raleway', sans-serif;
 	font-weight: 800;display;block;
-	max-width: 600px;
+	max-width: 100px;
 	padding: 30px 25px 10px 25px;
 	font-weight: 400;
 
@@ -99,15 +111,8 @@ header h1 {
 	letter-spacing: 5px;
 	color: rgb(150,142,132);
 }
-/* menu index*/
-.all {
-	font-family: 'raleway', sans-serif;
-	text-transform: uppercase;
-text-align: center;
-margin-top:30px
-color: rgb(150,142,132);
-margin-left:450px;
-}
+
+
 
 /* menu index2*/
 nav {
