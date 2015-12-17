@@ -2,6 +2,7 @@
  v2.0 | 20110126
  License: none (public domain)
  */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,800,900);
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -35,74 +36,46 @@ table {
 }
 
 h1 {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-weight: 800;display;block;
 	max-width: 600px;
 }
 
-h2 {
-	font-family: 'raleway', sans-serif;
-	font-weight: 800;
-	text-transform: uppercase;
-	color: rgb(150,142,132)
+ h2 {font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 4em;
+	padding: 0 0 10px;
+	color: rgb(150,142,132);
+	margin: 0 1% 40px;
+	text-align: left;
+	box-shadow: 0 10px 0 rgba(0,0,0,0.02);
+	text-shadow: 0 0 2px #fff;
 }
 
+
 h3 {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-weight: 400;
 	color: rgb(150,142,132);
 	padding: 10px 2px 10px 2px;
 }
 
 h4 {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-weight: 300;
 	color: rgb(150,142,132);
 	
 }
 
 p {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-weight: 300;
 	color: #000;
 	line-height:30px;
 }
-#inline_content_1 p {margin-left:30px;
-margin-right:30px;
-    max-width: 970px;
-    height: 350px;
-    overflow: scroll;
-}#inline_content_2 p {margin-left:30px;
-margin-right:30px;
-    max-width: 970px;
-    height: 350px;
-    overflow: scroll;
-}#inline_content_3 p {margin-left:30px;
-margin-right:30px;
-    max-width: 970px;
-    height: 350px;
+#inline_content_1,#inline_content_2, #inline_content_3 ,#inline_content_4, #inline_content_5 ,#inline_content_6  {height:580px;
     overflow: scroll;
 }
-
-#inline_content_4 p {margin-left:30px;
-margin-right:30px;
-    max-width: 970px;
-    height: 350px;
-    overflow: scroll;
-}
-
-#inline_content_5 p {margin-left:30px;
-margin-right:30px;
-    max-width: 970px;
-    height: 350px;
-    overflow: scroll;
-}#inline_content_6 p {margin-left:30px;
-margin-right:30px;
-    max-width: 970px;
-    height: 350px;
-    overflow: scroll;
-}
-
 header h1 {
 	max-width: 200px;
 	margin-top: 20PX;
@@ -112,7 +85,7 @@ header h1 {
 
 
 header h2{
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	text-transform: uppercase;
 text-align: center;
 margin-top:30px
@@ -120,6 +93,7 @@ color: red;
 margin-left:0px;
 padding: 40px 20px 40px 20px;
 }
+
 .titre {
 	font-family: 'raleway', sans-serif;
 	
@@ -134,14 +108,9 @@ padding: 40px 20px 40px 20px;
 	padding: 60px 25px 40px 25px;
 }
 	
-.sous-titre{
-	padding: 00px 25px 20px 25px;
-	text-transform : uppercase;
-	font-weight :lighter;
-	font-size : 120%;
-}
+
 .titre_read {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-weight: 800;display;block;
 	max-width: 100px;
 	padding: 30px 25px 10px 25px;
@@ -151,7 +120,7 @@ padding: 40px 20px 40px 20px;
 }
 	
 .titre_text {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	padding: 60px 25px 10px 25px;
 	font-weight: 400;
 	letter-spacing: 5px;
@@ -171,7 +140,7 @@ position:fixed;
 	width:1082PX;background:#FFF;height:60px;}
 
 nav li {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	text-transform: uppercase;
 	overflow: hidden;
 	float: left;
@@ -251,22 +220,16 @@ transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
 
-#chap0 {
-	max-height: 50%;
-	max-width: 80%;
-	line-height: 30px;
-	text-align : center;
-	margin-left : 300px;
-	margin-right : 300px;
-}
-p:hover{display:block}
+
+
 #chap1 {
-	max-height: 50%;
-	max-width: 80%;
+	max-height: 30%;
+	overflow:scroll;
+	max-width: 100%;
 	line-height: 30px;
 	text-align : center;
-	margin-left : 300px;
-	margin-right : 300px;
+	padding: 40px 60px 20px 60px;
+	background:rgb(244,241,239);
 }
 #chap2 {
 	max-height: 50%;
@@ -373,7 +336,7 @@ transform: translate3d(0, -50%, 0);
 	float: left;
 	height: 420px;
 	text-align: center;
-	border-top: 1px solid #FFF;
+
 }
 
 /* we are using a combination of borders and box shadows to control the grid lines */
@@ -529,7 +492,7 @@ transform: translate3d(0, -50%, 0);
 
 	/* reset the grid lines */
 	.cbp-ig-grid li:nth-child(-n+3){
-		border-top: 1px solid #ddd;
+		
 	}
 
 	.cbp-ig-grid li:nth-child(3n-1),
@@ -574,7 +537,7 @@ transform: translate3d(0, -50%, 0);
 	
 	}
 
-.cbp-ig-category {margin-top: 20px;font-family: 'raleway', sans-serif;
+.cbp-ig-category {margin-top: 20px;font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-weight: 300;
 	color: rgb(150,142,132)}
 
