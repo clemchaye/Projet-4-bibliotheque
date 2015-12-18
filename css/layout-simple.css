@@ -66,12 +66,16 @@ h4 {
 	color: rgb(150,142,132);
 	
 }
+a:-webkit-any-link {text-decoration: none;}
 
 p {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-weight: 300;
 	color: #000;
-	line-height:30px;
+	font-size: 1.2em;
+	line-height: 1.6;
+	text-align: justify;
+	padding: 5px 8%;
 }
 #inline_content_1,#inline_content_2, #inline_content_3 ,#inline_content_4, #inline_content_5 ,#inline_content_6  {height:580px;
     overflow: scroll;
@@ -132,26 +136,9 @@ padding: 40px 20px 40px 20px;
 }
 
 
-/* menu index2*/
-nav {
-float: right;
-position:fixed;
-	text-align: center;
-	width:1082PX;background:#FFF;height:60px;}
-
-nav li {
-	font-family: 'Lato', Calibri, Arial, sans-serif;
-	text-transform: uppercase;
-	overflow: hidden;
-	float: left;
-	padding: 30PX 25px 30px 25px;
-	color: rgb(150,142,132);
-}
-
-a:-webkit-any-link {
-	color: rgb(150,142,132);
-	text-decoration: none;
-}
+a{
+     color:rgb(150,142,132);}
+     
 
 
 
@@ -159,40 +146,25 @@ a:-webkit-any-link {
 /* tu peux changer ici raph */
 .intro__image {
 
-position: absolute;
-
-bottom: 0;
-
-min-width: 100%;
-
-min-height: 120%;
-
-width: auto;
+max-width: 100%;
 
 height: auto;
+position : absolute;
+bottom : 0;
+
 
 opacity: 0.8;
 
--webkit-transform: translate3d(0, 0, 0);
-
-transform: translate3d(0, 0, 0);
-
--webkit-transition: -webkit-transform 0.6s, opacity 0.6s;
-
-transition: transform 0.6s, opacity 0.6s;
-
--webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-
-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-
 }
 
+
+
 .learn-more-btn {
-	font-family: 'relaway', sans-serif;
-	font-weight: 800;
+	font-family: 'Lato', Calibri, Arial, sans-serif;;
+	font-weight: 300;
 	background: rgb(150,142,132);
 	padding: 20px 40px;
-	border-radius: 5px;
+	
 	color: #fff;
 	text-transform: uppercase;
 	position: absolute;
@@ -222,55 +194,7 @@ transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 
 
 
-#chap1 {
-	max-height: 30%;
-	overflow:scroll;
-	max-width: 100%;
-	line-height: 30px;
-	text-align : center;
-	padding: 40px 60px 20px 60px;
-	background:rgb(244,241,239);
-}
-#chap2 {
-	max-height: 50%;
-	max-width: 80%;
-	line-height: 30px;
-	text-align : center;
-	margin-left : 300px;
-	margin-right : 300px;
-}
-#chap3 {
-	max-height: 50%;
-	max-width: 80%;
-	line-height: 30px;
-	text-align : center;
-	margin-left : 300px;
-	margin-right : 300px;
-}
-#chap4{
-	max-height: 50%;
-	max-width: 80%;
-	line-height: 30px;
-	text-align : center;
-	margin-left : 300px;
-	margin-right : 300px;
-}
-#chap5 {
-	max-height: 50%;
-	max-width: 80%;
-	line-height: 30px;
-	text-align : center;
-	margin-left : 300px;
-	margin-right : 300px;
-	
-}
-#chap6 {max-height: 50%;
-max-width:80%;
-line-height:30px;
-	text-align : center;
-	margin-left : 300px;
-	margin-right : 300px;
-}
+
 
 
 /*POUR LE TEXT COLORBOX*/
@@ -290,27 +214,13 @@ width: 100%;
 
 opacity: 0.7;
 
--webkit-transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
-
-transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
-
--webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-
-transition: transform 0.5s, opacity 0.5s;
+z-index: 0;
 
 }
 
 
 
-.item:hover .item__image {
 
-opacity: 1;
-
--webkit-transform: translate3d(0, -50%, 0);
-
-transform: translate3d(0, -50%, 0);
-
-}
 
 /* General grid styles */
 .cbp-ig-grid {
